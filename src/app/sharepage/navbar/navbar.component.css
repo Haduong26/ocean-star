@@ -1,0 +1,15 @@
+.navbar-light .navbar-nav .nav-link{
+    color: var(--olivegreen);
+}
+
+.nav-item .nav-link.active-link{
+    border-bottom: 2px solid var(--yellow);
+}
+
+img{
+    width: 20%
+}
+
+nav{
+    font-size: 15px;
+}
