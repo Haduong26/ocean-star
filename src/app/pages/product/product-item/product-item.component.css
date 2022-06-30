@@ -1,0 +1,15 @@
+img{
+    height: 200px;
+    width: 190px;
+}
+
+p{
+    margin-top: 1rem;
+    font-size: 15px;
+    color: var(--brown);
+}
+
+.product_item{
+    text-align: center;
+}
+

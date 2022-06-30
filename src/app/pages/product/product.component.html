@@ -1,1 +1,39 @@
-<p>product works!</p>
+<section class="carousel">
+    <div class="carousel_item">
+        <div class="carousel_content">
+            <h1>Product</h1>
+        </div>
+    </div>
+</section>
+
+<div class="container product_container">
+    <div class="row">
+        <div class="col-6 col-sm-3">
+            <h3 style="color: var(--brown);">CATAGORIES</h3>
+            <ul style="color: var(--darkblue);">
+                <li>Đèn đọc Film X-Quang</li>
+                <li>Kiểm tra bột từ (MT)</li>
+                <li>Máy đo độ đen film</li>
+                <li>Kiểm tra thẩm thấu (PT)</li>
+                <li>Máy đo phóng xạ</li>
+                <li>Thiết bị X-RAY công nghiệp</li>
+                <li>Khớp nối nhanh - Kims</li>
+                <li>Thiết bị đo độ dày vật liệu</li>
+                <li>Thiết bị hàn - cắt</li>
+                <li>Thiết bị xử lý nhiệt</li>
+                <li>Phim X-Quang công nghiệp</li>
+                <li>Hóa chất Nabakem</li>
+                <li>Vật liệu NDT</li>
+                <li>Dụng cụ ứng phó sự cố phóng xạ</li>
+                <li>Phương pháp kiểm tra hút chân không</li>
+            </ul>
+        </div>
+        <div class="col" >
+            <div class="row" >
+                <div class="col-md-4"  *ngFor = 'let product of productList'>
+                    <app-product-item [productItem]="product"></app-product-item>
+                </div>
+            </div>   
+        </div>
+    </div>
+  </div>

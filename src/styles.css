@@ -7,10 +7,13 @@
 
 :root{
     --yellow: #D9BA6E;
+    --brown: #896B22;
     --darkblue: #0B1F20;
+    --blue: #63959E;
     --olivegreen: #5E736A;
+    --lightgreen: #CDE2D3
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }

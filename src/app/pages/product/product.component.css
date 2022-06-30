@@ -1,0 +1,32 @@
+.carousel_item{
+    width: 100%;
+    height: 370px;
+    background-image: url(../../../assets/img/photo-1496247749665-49cf5b1022e9.jpeg);
+    background-position: center 100%;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.625rem;
+    font-size: 2rem;
+}
+
+.product_container{
+    color: var();
+    margin-top: 110px;
+}
+
+img{
+    height: 200px;
+    width: 190px;
+}
+
+.product_item{
+    text-align: center;
+    margin-bottom: 5rem;
+}
